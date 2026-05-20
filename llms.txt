@@ -1,0 +1,15 @@
+# Agentic HTML Export QA
+
+Agentic HTML Export QA is a hosted remote MCP for agentic HTML export QA MCP.
+
+Website: https://agentichtmlexportqa.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: agentic HTML export QA MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://agentichtmlexportqa.clauxel.com/mcp
+Server card: https://agentichtmlexportqa.clauxel.com/server-card.json
+Registry name: com.clauxel.agentichtmlexportqa/agentichtmlexportqa-mcp
+Tools: check_html_export_qa, classify_layout_gap, check_link_summary, issue_export_receipt, export_html_qa_log
+
+Public boundary: docs-only repository; no production source code or secrets.
