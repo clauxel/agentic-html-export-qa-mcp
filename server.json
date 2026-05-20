@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.agentichtmlexportqa/agentichtmlexportqa-mcp",
-  "description": "Agentic HTML Export QA is a hosted remote MCP for agentic HTML export QA MCP.",
+  "title": "Agentic HTML Export QA MCP",
+  "description": "Paid remote MCP for agentic HTML export QA MCP, structured receipts, audit logs, and reviewer-ready evidence.",
   "version": "1.0.0",
-  "website_url": "https://agentichtmlexportqa.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/agentic-html-export-qa-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://agentichtmlexportqa.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/agentic-html-export-qa-mcp",
+  "serverCardUrl": "https://agentichtmlexportqa.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,16 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "Agentic HTML Export QA MCP",
-      "server_card_url": "https://agentichtmlexportqa.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "agentic",
+    "html",
+    "export",
+    "qa",
+    "remote-mcp"
+  ]
 }
